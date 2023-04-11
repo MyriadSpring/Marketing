@@ -7,6 +7,22 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background: linear-gradient(-45deg, #5a778f, #8e5c92, #1f3d6b, #2a8b7d);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 header {
@@ -27,6 +43,8 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 main {
@@ -40,6 +58,7 @@ section {
 section h1, section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 
 img {
@@ -70,7 +89,8 @@ footer {
 /* Background image for the home section */
 #home {
     background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 4rem;
     text-align: center;
