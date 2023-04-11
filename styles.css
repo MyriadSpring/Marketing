@@ -9,7 +9,7 @@ body {
     line-height: 1.6;
     background: linear-gradient(-45deg, #1c1c1c, #000000, #1c1c1c, #000000);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 8s ease infinite;
     height: 100vh;
     color: #fff;
 }
@@ -98,11 +98,13 @@ footer {
 #home {
     background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
     background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     padding: 4rem;
     text-align: center;
     color: #fff;
+    height: 80vh;
 }
 
 /* Add a hover effect to the navigation links */
@@ -117,42 +119,60 @@ nav ul li a:hover {
     justify-content: space-around;
 }
 
-#services ul li {
-    flex: 1;
-    margin: 1rem;
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
+#services ul li{
+flex: 1;
+margin: 1rem;
+padding: 1rem;
+background-color: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 4px;
 }
 
 /* Add a hover effect to the services list items */
 #services ul li:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    cursor: pointer;
+background-color: rgba(255, 255, 255, 0.2);
+cursor: pointer;
 }
 
 /* Make profile image circular */
 .circular-profile {
-    border-radius: 50%;
+border-radius: 50%;
+width: 200px;
+display: block;
+margin: 0 auto;
 }
 
 /* Change the font weight of "Specializing in Real Estate Marketing" */
 #home p {
-    font-weight: bold;
+font-weight: bold;
 }
 
+/* Style the "Schedule time with me" button */
+a.schedule-btn {
+display: inline-block;
+background-color: #ff9800;
+color: #fff;
+padding: 12px 24px;
+font-size: 1.2rem;
+font-weight: bold;
+text-decoration: none;
+border-radius: 4px;
+margin-top: 1rem;
+}
+
+a.schedule-btn:hover {
+background-color: #e68900;
+}
 
 /* Responsive design for mobile */
 @media (max-width: 768px) {
 nav ul li {
 margin: 0 0.5rem;
 }
-    #home {
-    padding: 2rem;
+#home {
+padding: 2rem;
 }
-
-.about-images img, .portfolio-images img {
+    .about-images img, .portfolio-images img {
     width: 100%;
 }
 #services ul {
@@ -165,4 +185,3 @@ margin: 0 0.5rem;
     margin-bottom: 1rem;
 }
 
-   
