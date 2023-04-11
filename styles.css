@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(-45deg, #5a778f, #8e5c92, #1f3d6b, #2a8b7d);
+    background: linear-gradient(-45deg, #f0f0f0, #e6e6e6, #ffffff, #f0f0f0);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     height: 100vh;
@@ -66,16 +66,21 @@ img {
     height: auto;
 }
 
-.about-images {
+.about-images, .portfolio-images {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
 }
 
-.about-images img {
+.about-images img, .portfolio-images img {
     width: 45%;
     border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.about-images img:hover, .portfolio-images img:hover {
+    transform: scale(1.1);
 }
 
 footer {
@@ -89,7 +94,7 @@ footer {
 /* Background image for the home section */
 #home {
     background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 4rem;
@@ -124,14 +129,36 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-.portfolio-images {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+/* Make profile image circular */
+.circular-profile {
+    border-radius: 50%;
 }
 
-.portfolio-images img {
-    width: 45%;
-    border-radius: 4px;
+/* Change the font weight of "Specializing in Real Estate Marketing" */
+#home p {
+    font-weight: bold;
 }
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    nav ul li {
+        margin: 0 0.5rem;
+    }
+
+    #home {
+        padding: 2rem;
+    }
+
+    .about-images img, .portfolio-images img {
+width: 100%;
+}
+    #services ul {
+    flex-direction: column;
+}
+
+#services ul li {
+    flex: none;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
