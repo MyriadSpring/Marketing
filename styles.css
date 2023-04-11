@@ -42,50 +42,76 @@ section h1, section h2 {
     margin-bottom: 1rem;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.about-images img {
+    width: 45%;
+    border-radius: 4px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem;
-    margin
-    -top: 2rem;
-    }
+    margin-top: 2rem;
+}
 
-    /* Add your custom styles and animations here */
-
-    /* Background image for the home section */
-    #home {
-     background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
+/* Background image for the home section */
+#home {
+    background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
     background-size: cover;
     background-position: center;
     padding: 4rem;
     text-align: center;
     color: #fff;
-    }
+}
 
-    /* Add a hover effect to the navigation links */
-    nav ul li a:hover {
+/* Add a hover effect to the navigation links */
+nav ul li a:hover {
     color: #ccc;
-    }
+}
 
-    /* Style the services list */
-    #services ul {
+/* Style the services list */
+#services ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    }
+}
 
-    #services ul li {
+#services ul li {
     flex: 1;
     margin: 1rem;
     padding: 1rem;
     background-color: #f4f4f4;
     border: 1px solid #ddd;
     border-radius: 4px;
-    }
+}
 
-    /* Add a hover effect to the services list items */
-    #services ul li:hover {
+/* Add a hover effect to the services list items */
+#services ul li:hover {
     background-color: #eee;
     cursor: pointer;
-    }
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.portfolio-images img {
+    width: 45%;
+    border-radius: 4px;
+}
