@@ -14,13 +14,10 @@ body {
     color: #fff;
 }
 
-body {
-    font-size: 16px;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 p {
@@ -32,6 +29,8 @@ p {
 header {
     background-color: #333;
     padding: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
@@ -87,361 +86,84 @@ nav ul li a:hover {
 }
 
 main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
     padding: 2rem;
 }
 
 section {
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-section h1, section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-}
-
-section h1, section h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
 }
 
 section:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 img {
     max-width: 100%;
     height: auto;
-}
-
-.about-images, .portfolio-images {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-}
-
-.military-experience-image {
-    width: 30%;
-}
-
-.about-images img, .portfolio-images img {
-    width: 45%;
-   border-radius: 4px;
-transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.marketing-expertise {
-padding: 2rem;
-border-radius: 4px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-text-align: center;
-margin: 0 auto;
-max-width: 800px;
-background-color: transparent;
-}
-
-.marketing-expertise h3 {
-font-size: 1.5rem;
-margin-top: 2rem;
-color: #fff;
-animation: color-change 8s ease infinite;
-}
-
-.marketing-expertise p {
-line-height: 1.5;
-font-size: 1.2rem;
-margin-bottom: 1rem;
-color: #fff;
-animation: color-change 8s ease infinite;
-}
-
-@keyframes color-change {
-0% {
-color: #fff;
-}
-50% {
-color: #dbe2ef; /* a light blue-gray color */
-}
-100% {
-color: #fff;
-}
-}
-
-.about-images img:hover, .portfolio-images img:hover {
-transform: scale(1.1);
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-}
-#offers {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-.offer {
-  width: 45%;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.offer img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.offer p {
-  font-size: 16px;
-  line-height: 1.5;
+    border-radius: 4px;
+   margin-bottom: 1rem;
 }
 
 footer {
-background-color: #333;
-color: #fff;
-text-align: center;
+background-color: rgba(0, 0, 0, 0.9);
 padding: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
 margin-top: 2rem;
 }
 
-/* Background image for the home section */
-#home {
-  background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 4rem;
-  text-align: center;
-  color: #fff;
-  height: 100vh;
-  width: 100%;
-  animation: home-bg-change 24s ease infinite;
+footer p {
+font-size: 1rem;
 }
 
-/* Style the services list */
-.services {
+.footer-links {
 display: flex;
-flex-wrap: wrap;
 justify-content: center;
+list-style: none;
+padding: 0.5rem 1rem;
 }
 
-.services li {
-background-color: #fff;
-border-radius: 4px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-margin: 1rem;
-padding: 1rem;
-text-align: center;
-max-width: 400px;
-transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+.footer-links li {
+margin: 0 1rem;
 }
 
-.services li:hover {
-transform: scale(1.1);
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-}
-
-/* Make profile image circular */
-.circular-profile {
-border-radius: 50%;
-width: 200px;
-display: block;
-margin: 0 auto;
-transition: box-shadow 0.3s ease-in-out;
-}
-
-.circular-profile:hover {
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-}
-
-/* Change the font weight of "Specializing in Real Estate Marketing" */
-#home p {
-font-weight: bold;
-}
-
-/* Style the "Schedule time with me" button */
-a.schedule-btn {
-display: inline-block;
-background-color: #ff9800;
+.footer-links li a {
 color: #fff;
-padding: 12px 24px;
-font-size: 1.2rem;
-font-weight: bold;
 text-decoration: none;
-border-radius: 4px;
-margin-top: 1rem;
-transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+font-size: 1rem;
 }
 
-a.schedule-btn:hover {
-background-color: #e68900;
-transform: scale(1.1);
+.footer-links li a:hover {
+text-decoration: underline;
+color: #ccc;
 }
 
-/* Responsive design for mobile */
-@media (max-width: 768px) {
-nav ul li {
-margin: 0 0.5rem;
-}
-#home {
-padding: 2rem;
-}
-.about-images img, .portfolio-images img {
-width: 100%;
-}
-#services ul {
+@media screen and (max-width: 768px) {
+nav ul {
 flex-direction: column;
 }
-#services ul li {
-flex: none;
-width: 100%;
-margin-bottom: 1rem;
-}
-.floating-cta {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 12px 20px;
-    background-color: #2a2a2a;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 5px;
-    z-index: 1000;
-    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.floating-cta:hover {
-    background-color: #4a4a4a;
-    text-decoration: none;
-    color: #ffffff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
 }
 }
-
-/* Home page background change effect */
-@keyframes home-bg-change {
-  0% {
-    background-image: url('https://ap.rdcpix.com/38bff4b9293486fdb18b63f052af94f5l-m2548860705od-w480_h360_x2.jpg');
-  }
-  33% {
-    background-image: url('https://i.ibb.co/XFNPsnR/FB-IMG-1681557915554.jpg');
-  }
-  66% {
-    background-image: url('https://i.ibb.co/T24yCnQ/20190518-092939.jpg');
-  }
-  100% {
-    background-image: url('https://ap.rdcpix.com/38bff4b9293486fdb18b63f052af94f5l-m2548860705od-w480_h360_x2.jpg');
-  }
-}
-#home {
-  /* Other properties */
-width: 100%; /* Change the height to 100vh */
-    height: auto;
-}
-
-
-#home {
-  animation: home-bg-change 24s ease infinite;
-}
-#home h1 {
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the color and opacity as needed */
-  color: #fff; /* Change the text color to white for better visibility */
-  padding: 10px; /* Add padding for better spacing around the text */
-  display: inline-block; /* Make the background fit around the text */
-  border-radius: 5px; /* Add rounded corners for a smoother appearance */
-}
-
-/* Military section image change effect */
-@keyframes military-image-change {
-  0% {
-    background-image: url('https://i.ibb.co/CBprYG1/fix-1.jpg');
-  }
-  33% {
-    background-image: url('https://i.ibb.co/Q9NhHx9/FB-IMG-1681557843041.jpg');
-  }
-  66% {
-    background-image: url('https://i.ibb.co/YyrtZCR/71-1517416488227.jpg');
-  }
-  100% {
-    background-image: url('https://i.ibb.co/CBprYG1/fix-1.jpg');
-  }
-}
-
-.military-experience-image {
-  animation: military-image-change 24s ease infinite;
-  width: 100%;
-  height: 50vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 4px;
-}
-/* Add more hover effects to all components */
-nav ul li a:focus, nav ul li a:active {
-background-color: rgba(255, 255, 255, 0.2);
-color: #fff;
-}
-
-.services li:focus, .services li:active {
-transform: scale(1.1);
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-}
-
-.calendly-btn:focus, .calendly-btn:active {
-background-color: #0056b3;
-text-decoration: none;
-color: white;
-transform: scale(1.1);
-}
-
-a.schedule-btn:focus, a.schedule-btn:active {
-background-color: #e68900;
-transform: scale(1.1);
-}
-
-.floating-cta:focus, .floating-cta:active {
-background-color: #4a4a4a;
-text-decoration: none;
-color: #ffffff;
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-}
-
-.about-images img:focus, .about-images img:active, .portfolio-images img:focus, .portfolio-images img:active {
-transform: scale(1.1);
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-}
-
-/* Split sections into separate displays for easier reading and scrolling */
-.section-wrapper {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-gap: 1rem;
-margin-bottom: 2rem;
-}
-
-.section-wrapper > div {
-background-color: rgba(255, 255, 255, 0.1);
-padding: 2rem;
-border-radius: 4px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-width: 100%;
-max-width: 800px;
-text-align: center;
-}
-
-.section-wrapper > div:hover {
-background-color: rgba(255, 255, 255, 0.2);
-}
-
-/* Make sure to wrap your existing sections with the new .section-wrapper class in your HTML:
-<div class="section-wrapper">
-<div>
-Your existing section content
-</div>
-</div>
-*/
