@@ -63,6 +63,9 @@ nav ul li a {
     text-decoration: none;
     transition: background-color 0.3s;
 }
+.military-experience-image {
+    width: 30%;
+}
 
 .floating-cta:hover {
     background-color: #0056b3;
