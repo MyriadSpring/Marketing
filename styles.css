@@ -207,3 +207,21 @@ padding: 2rem;
     margin-bottom: 1rem;
 }
 
+.floating-cta {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3a9dff;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.floating-cta:hover {
+  background-color: #267ac8;
+}
