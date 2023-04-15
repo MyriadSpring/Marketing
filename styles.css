@@ -170,12 +170,13 @@ img {
     color: #fff;
   }
   50% {
-    color: #007BFF;
+    color: #dbe2ef; /* a light blue-gray color */
   }
   100% {
     color: #fff;
   }
 }
+
 
 }
 
