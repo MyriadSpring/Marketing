@@ -312,6 +312,11 @@ margin-bottom: 1rem;
     background-image: url('https://ap.rdcpix.com/38bff4b9293486fdb18b63f052af94f5l-m2548860705od-w480_h360_x2.jpg');
   }
 }
+#home {
+  /* Other properties */
+width: 100%; /* Change the height to 100vh */
+    height: auto;
+}
 
 
 #home {
@@ -343,15 +348,10 @@ margin-bottom: 1rem;
 
 .military-experience-image {
   animation: military-image-change 24s ease infinite;
-  width: 100%;
-  max-width: 600px;
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin: 0 auto;
+width: 100%; /* Change the width to 100% */
+  height: auto; /* Change the height to auto to maintain aspect ratio */
+  max-height: 50vh; /* Add a max-height value to control the maximum height of the image */
 }
-
 
 /* Add more hover effects to all components */
 nav ul li a:focus, nav ul li a:active {
