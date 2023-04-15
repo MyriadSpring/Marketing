@@ -13,6 +13,21 @@ body {
     height: 100vh;
     color: #fff;
 }
+body {
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
 
 @keyframes gradient {
     0% {
@@ -96,6 +111,13 @@ nav ul li a:hover {
     color: white;
 }
 
+.calendly-btn {
+  transition: transform 0.3s ease-in-out;
+}
+
+.calendly-btn:hover {
+  transform: scale(1.1);
+}
 
 
 .floating-cta:hover {
@@ -109,8 +131,10 @@ main {
 }
 
 section {
-    margin-bottom: 2rem;
+  margin: 0 auto;
+  max-width: 800px;
 }
+
 
 section h1, section h2 {
     font-size: 2.5rem;
@@ -118,6 +142,13 @@ section h1, section h2 {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.2px;
+}
+section h1, section h2 {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 img {
