@@ -212,26 +212,27 @@ nav ul li a:hover {
 }
 
 /* Style the services list */
-#services ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#services ul li {
-    flex: 1;
-margin: 1rem;
-padding: 1rem;
-background-color: rgba(255, 255, 255, 0.1);
-border: 1px solid rgba(255, 255, 255, 0.2);
-border-radius: 4px;
+.services li {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  max-width: 400px;
+  transition: transform 0.3s ease-in-out;
 }
 
-/* Add a hover effect to the services list items */
-#services ul li:hover {
-background-color: rgba(255, 255, 255, 0.2);
-cursor: pointer;
+.services li:hover {
+  transform: scale(1.1);
 }
+
 
 /* Make profile image circular */
 .circular-profile {
