@@ -302,16 +302,27 @@ margin-bottom: 1rem;
   0% {
     background-image: url('https://ap.rdcpix.com/38bff4b9293486fdb18b63f052af94f5l-m2548860705od-w480_h360_x2.jpg');
   }
-  50% {
+  33% {
     background-image: url('https://i.ibb.co/XFNPsnR/FB-IMG-1681557915554.jpg');
+  }
+  66% {
+    background-image: url('https://i.ibb.co/T24yCnQ/20190518-092939.jpg');
   }
   100% {
     background-image: url('https://ap.rdcpix.com/38bff4b9293486fdb18b63f052af94f5l-m2548860705od-w480_h360_x2.jpg');
   }
 }
 
+
 #home {
-  animation: home-bg-change 12s ease infinite;
+  animation: home-bg-change 24s ease infinite;
+}
+#home h1 {
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the color and opacity as needed */
+  color: #fff; /* Change the text color to white for better visibility */
+  padding: 10px; /* Add padding for better spacing around the text */
+  display: inline-block; /* Make the background fit around the text */
+  border-radius: 5px; /* Add rounded corners for a smoother appearance */
 }
 
 /* Military section image change effect */
@@ -331,7 +342,7 @@ margin-bottom: 1rem;
 }
 
 .military-experience-image {
-  animation: military-image-change 12s ease infinite;
+  animation: military-image-change 24s ease infinite;
   width: 100%;
   max-width: 600px;
   height: 400px;
