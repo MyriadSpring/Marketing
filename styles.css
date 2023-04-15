@@ -247,3 +247,22 @@ flex-direction: column;
     text-decoration: none;
     color: #ffffff;
 }
+    .marketing-expertise {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.marketing-expertise h3 {
+  color: #007BFF;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.marketing-expertise p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
