@@ -299,43 +299,41 @@ margin-bottom: 1rem;
 
 /* Home page background change effect */
 @keyframes home-bg-change {
-0% {
-background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
-}
-33% {
-background-image: url('your_second_image_url_here.jpg');
-}
-66% {
-background-image: url('your_third_image_url_here.jpg');
-}
-100% {
-background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
-}
+    0% {
+        background-image: url('https://ap.rdcpix.com/38bff4b9293486fdb18b63f052af94f5l-m2548860705od-w480_h360_x2.jpg');
+    }
+    50% {
+        background-image: url('https://i.ibb.co/XFNPsnR/FB-IMG-1681557915554.jpg');
+    }
+    100% {
+        background-image: url('https://ap.rdcpix.com/38bff4b9293486fdb18b63f052af94f5l-m2548860705od-w480_h360_x2.jpg');
+    }
 }
 
 #home {
-animation: home-bg-change 12s ease infinite;
+    animation: home-bg-change 12s ease infinite;
 }
 
 /* Military section image change effect */
 @keyframes military-image-change {
-0% {
-background-image: url('your_first_military_image_url_here.jpg');
-}
-33% {
-background-image: url('your_second_military_image_url_here.jpg');
-}
-66% {
-background-image: url('your_third_military_image_url_here.jpg');
-}
-100% {
-background-image: url('your_first_military_image_url_here.jpg');
-}
+    0% {
+        background-image: url('https://i.ibb.co/CBprYG1/fix-1.jpg');
+    }
+    33% {
+        background-image: url('https://i.ibb.co/Q9NhHx9/FB-IMG-1681557843041.jpg');
+    }
+    66% {
+        background-image: url('https://i.ibb.co/YyrtZCR/71-1517416488227.jpg');
+    }
+    100% {
+        background-image: url('https://i.ibb.co/CBprYG1/fix-1.jpg');
+    }
 }
 
 .military-experience-image {
-animation: military-image-change 12s ease infinite;
+    animation: military-image-change 12s ease infinite;
 }
+
 /* Add more hover effects to all components */
 nav ul li a:focus, nav ul li a:active {
 background-color: rgba(255, 255, 255, 0.2);
