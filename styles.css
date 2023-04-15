@@ -13,32 +13,20 @@ body {
     height: 100vh;
     color: #fff;
 }
+
 body {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 header {
@@ -47,35 +35,34 @@ header {
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding: 0.5rem 1rem;
-  background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 nav ul li {
-  margin: 0 1rem;
+    margin: 0 1rem;
 }
 
 nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  transition: background-color 0.3s;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  text-decoration: none;
-  color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    color: #ccc;
 }
-
 
 .floating-cta {
     position: fixed;
@@ -90,40 +77,13 @@ nav ul li a:hover {
     cursor: pointer;
     z-index: 100;
     text-decoration: none;
-    transition: background-color 0.3s;
-    
+    transition: background-color 0.3s, color 0.3s;
 }
-.calendly-btn {
-    display: inline-block;
-    background-color: #007BFF;
-    color: #fff;
-    padding: 12px 24px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-.calendly-btn:hover {
-    background-color: #0056b3;
-    text-decoration: none;
-    color: white;
-}
-
-.calendly-btn {
-  transition: transform 0.3s ease-in-out;
-}
-
-.calendly-btn:hover {
-  transform: scale(1.1);
-}
-
 
 .floating-cta:hover {
     background-color: #0056b3;
     text-decoration: none;
-    color: white;
+    color: #ccc;
 }
 
 main {
@@ -131,10 +91,9 @@ main {
 }
 
 section {
-  margin: 0 auto;
-  max-width: 800px;
+    margin: 0 auto;
+    max-width: 800px;
 }
-
 
 section h1, section h2 {
     font-size: 2.5rem;
@@ -143,12 +102,13 @@ section h1, section h2 {
     text-transform: uppercase;
     letter-spacing: 1.2px;
 }
+
 section h1, section h2 {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 section:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 img {
@@ -162,108 +122,102 @@ img {
     gap: 1rem;
     justify-content: center;
 }
+
 .military-experience-image {
     width: 30%;
 }
 
 .about-images img, .portfolio-images img {
     width: 45%;
-    border-radius: 4px;
-    transition: transform 0.3s ease;
+   border-radius: 4px;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .marketing-expertise {
-  padding: 2rem;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  margin: 0 auto;
-  max-width: 800px;
-  background-color: transparent;
+padding: 2rem;
+border-radius: 4px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+text-align: center;
+margin: 0 auto;
+max-width: 800px;
+background-color: transparent;
 }
 
 .marketing-expertise h3 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  color: #fff;
-  animation: color-change 8s ease infinite;
+font-size: 1.5rem;
+margin-top: 2rem;
+color: #fff;
+animation: color-change 8s ease infinite;
 }
 
 .marketing-expertise p {
-  line-height: 1.5;
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  color: #fff;
-  animation: color-change 8s ease infinite;
+line-height: 1.5;
+font-size: 1.2rem;
+margin-bottom: 1rem;
+color: #fff;
+animation: color-change 8s ease infinite;
 }
 
 @keyframes color-change {
-  0% {
-    color: #fff;
-  }
-  50% {
-    color: #dbe2ef; /* a light blue-gray color */
-  }
-  100% {
-    color: #fff;
-  }
+0% {
+color: #fff;
+}
+50% {
+color: #dbe2ef; /* a light blue-gray color */
+}
+100% {
+color: #fff;
+}
 }
 
-
-}
-
-}
 .about-images img:hover, .portfolio-images img:hover {
-    transform: scale(1.1);
+transform: scale(1.1);
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 1rem;
+margin-top: 2rem;
 }
 
 /* Background image for the home section */
 #home {
-    background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 4rem;
-    text-align: center;
-    color: #fff;
-    height: 80vh;
-}
-
-/* Add a hover effect to the navigation links */
-nav ul li a:hover {
-    color: #ccc;
+background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+padding: 4rem;
+text-align: center;
+color: #fff;
+height: 80vh;
 }
 
 /* Style the services list */
 .services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .services li {
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin: 1rem;
-  padding: 1rem;
-  text-align: center;
-  max-width: 400px;
-  transition: transform 0.3s ease-in-out;
+background-color: #fff;
+border-radius: 4px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+margin: 1rem;
+padding: 1rem;
+text-align: center;
+max-width: 400px;
+transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .services li:hover {
-  transform: scale(1.1);
+transform: scale(1.1);
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
-
 
 /* Make profile image circular */
 .circular-profile {
@@ -271,6 +225,11 @@ border-radius: 50%;
 width: 200px;
 display: block;
 margin: 0 auto;
+transition: box-shadow 0.3s ease-in-out;
+}
+
+.circular-profile:hover {
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 /* Change the font weight of "Specializing in Real Estate Marketing" */
@@ -289,10 +248,12 @@ font-weight: bold;
 text-decoration: none;
 border-radius: 4px;
 margin-top: 1rem;
+transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 a.schedule-btn:hover {
 background-color: #e68900;
+transform: scale(1.1);
 }
 
 /* Responsive design for mobile */
@@ -309,12 +270,11 @@ width: 100%;
 #services ul {
 flex-direction: column;
 }
-    #services ul li {
-    flex: none;
-    width: 100%;
-    margin-bottom: 1rem;
+#services ul li {
+flex: none;
+width: 100%;
+margin-bottom: 1rem;
 }
-
 .floating-cta {
     position: fixed;
     bottom: 20px;
@@ -326,12 +286,118 @@ flex-direction: column;
     font-size: 16px;
     border-radius: 5px;
     z-index: 1000;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .floating-cta:hover {
     background-color: #4a4a4a;
     text-decoration: none;
     color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
 }
 
+/* Home page background change effect */
+@keyframes home-bg-change {
+0% {
+background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
+}
+33% {
+background-image: url('your_second_image_url_here.jpg');
+}
+66% {
+background-image: url('your_third_image_url_here.jpg');
+}
+100% {
+background-image: url('https://i.ibb.co/W5kCTdr/20190518-092939.jpg');
+}
+}
 
+#home {
+animation: home-bg-change 12s ease infinite;
+}
+
+/* Military section image change effect */
+@keyframes military-image-change {
+0% {
+background-image: url('your_first_military_image_url_here.jpg');
+}
+33% {
+background-image: url('your_second_military_image_url_here.jpg');
+}
+66% {
+background-image: url('your_third_military_image_url_here.jpg');
+}
+100% {
+background-image: url('your_first_military_image_url_here.jpg');
+}
+}
+
+.military-experience-image {
+animation: military-image-change 12s ease infinite;
+}
+/* Add more hover effects to all components */
+nav ul li a:focus, nav ul li a:active {
+background-color: rgba(255, 255, 255, 0.2);
+color: #fff;
+}
+
+.services li:focus, .services li:active {
+transform: scale(1.1);
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.calendly-btn:focus, .calendly-btn:active {
+background-color: #0056b3;
+text-decoration: none;
+color: white;
+transform: scale(1.1);
+}
+
+a.schedule-btn:focus, a.schedule-btn:active {
+background-color: #e68900;
+transform: scale(1.1);
+}
+
+.floating-cta:focus, .floating-cta:active {
+background-color: #4a4a4a;
+text-decoration: none;
+color: #ffffff;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.about-images img:focus, .about-images img:active, .portfolio-images img:focus, .portfolio-images img:active {
+transform: scale(1.1);
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Split sections into separate displays for easier reading and scrolling */
+.section-wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 1rem;
+margin-bottom: 2rem;
+}
+
+.section-wrapper > div {
+background-color: rgba(255, 255, 255, 0.1);
+padding: 2rem;
+border-radius: 4px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+width: 100%;
+max-width: 800px;
+text-align: center;
+}
+
+.section-wrapper > div:hover {
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Make sure to wrap your existing sections with the new .section-wrapper class in your HTML:
+<div class="section-wrapper">
+<div>
+Your existing section content
+</div>
+</div>
+*/
