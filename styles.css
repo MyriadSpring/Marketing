@@ -127,10 +127,14 @@ img {
     transition: transform 0.3s ease;
 }
     .marketing-expertise {
-  background-color: #fff;
+  background-color: #f2f2f2;
   padding: 2rem;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #333;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .marketing-expertise h3 {
@@ -143,6 +147,8 @@ img {
   line-height: 1.5;
   font-size: 1.2rem;
   margin-bottom: 1rem;
+}
+
 }
 .about-images img:hover, .portfolio-images img:hover {
     transform: scale(1.1);
