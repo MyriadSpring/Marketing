@@ -33,7 +33,22 @@ header {
 
 nav ul {
     display: flex;
-    .floating-cta {
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.floating-cta {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -53,21 +68,6 @@ nav ul {
     background-color: #0056b3;
     text-decoration: none;
     color: white;
-}
-
-    justify-content: center;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
 }
 
 main {
@@ -141,8 +141,8 @@ nav ul li a:hover {
     justify-content: space-around;
 }
 
-#services ul li{
-flex: 1;
+#services ul li {
+    flex: 1;
 margin: 1rem;
 padding: 1rem;
 background-color: rgba(255, 255, 255, 0.1);
@@ -194,34 +194,33 @@ margin: 0 0.5rem;
 #home {
 padding: 2rem;
 }
-    .about-images img, .portfolio-images img {
-    width: 100%;
+.about-images img, .portfolio-images img {
+width: 100%;
 }
 #services ul {
-    flex-direction: column;
+flex-direction: column;
 }
-
-#services ul li {
+    #services ul li {
     flex: none;
     width: 100%;
     margin-bottom: 1rem;
 }
 
 .floating-cta {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #3a9dff;
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 4px;
-  z-index: 1000;
-  transition: background-color 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    z-index: 1000;
 }
 
 .floating-cta:hover {
-  background-color: #267ac8;
+    background-color: #4a4a4a;
+    text-decoration: none;
+    color: #ffffff;
 }
