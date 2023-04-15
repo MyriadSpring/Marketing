@@ -82,9 +82,7 @@ nav ul li a {
     color: white;
 }
 
-.military-experience-image {
-    width: 30%;
-}
+
 
 .floating-cta:hover {
     background-color: #0056b3;
@@ -118,6 +116,9 @@ img {
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+}
+.military-experience-image {
+    width: 30%;
 }
 
 .about-images img, .portfolio-images img {
