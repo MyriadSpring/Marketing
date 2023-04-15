@@ -126,27 +126,43 @@ img {
     border-radius: 4px;
     transition: transform 0.3s ease;
 }
-    .marketing-expertise {
-
+.marketing-expertise {
   padding: 2rem;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   text-align: center;
-
   margin: 0 auto;
   max-width: 800px;
+  background-color: transparent;
 }
 
 .marketing-expertise h3 {
- 
   font-size: 1.5rem;
   margin-top: 2rem;
+  color: #fff;
+  animation: color-change 8s ease infinite;
 }
 
 .marketing-expertise p {
   line-height: 1.5;
   font-size: 1.2rem;
   margin-bottom: 1rem;
+  color: #fff;
+  animation: color-change 8s ease infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #007BFF;
+  }
+  100% {
+    color: #fff;
+  }
+}
+
 }
 
 }
