@@ -12,6 +12,7 @@ body {
     animation: gradient 8s ease infinite;
     height: 100vh;
     color: #fff;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -86,10 +87,10 @@ nav ul li a:hover {
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 2rem;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 section {
@@ -102,6 +103,9 @@ section {
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 2rem;
 }
 
 section:hover {
@@ -183,4 +187,3 @@ footer p {
         background-position: 0% 50%;
     }
 }
-
