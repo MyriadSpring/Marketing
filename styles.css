@@ -34,11 +34,12 @@ header {
     justify-content: center;
 }
 .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
 }
+
 
 .logo {
     max-width: 200px;
