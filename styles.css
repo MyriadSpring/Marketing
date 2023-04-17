@@ -37,15 +37,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* add this line */
+  flex-direction: column;
   margin: 20px 0;
+  height: 100px; /* set a fixed height for the container */
 }
 
-
 .logo {
-    max-width: 200px;
-    height: auto;
-    margin-bottom: 0;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  /* center the logo within the container */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 nav ul {
