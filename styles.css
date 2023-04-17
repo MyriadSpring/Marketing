@@ -33,6 +33,18 @@ header {
     display: flex;
     justify-content: center;
 }
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 0;
+}
 
 nav ul {
     display: flex;
