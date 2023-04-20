@@ -90,7 +90,7 @@ nav ul li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.05;
+    opacity: 0.5;
     z-index: -1;
 }
 
@@ -189,7 +189,7 @@ section#trial-program {
 .bg-image::before {
   content: "";
   background-image: url('https://i.ibb.co/ZgHs4Wj/800px-Battle-of-Bach-Dang-1288-770x452.jpg');
-  opacity: 0.9;
+  opacity: 0.1;
   position: absolute;
   top: 0;
   left: 0;
@@ -204,7 +204,7 @@ section#trial-program {
 .bg-image-trial::before {
   content: "";
   background-image: url('https://i.ibb.co/0MrJJRY/FS-F1919-173-001-scaled.jpg');
-  opacity: 0.3;
+  opacity: 0.1;
   position: absolute;
   top: 0;
   left: 0;
