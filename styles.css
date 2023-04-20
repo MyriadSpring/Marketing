@@ -189,7 +189,7 @@ section#trial-program {
 .bg-image::before {
   content: "";
   background-image: url('https://i.ibb.co/ZgHs4Wj/800px-Battle-of-Bach-Dang-1288-770x452.jpg');
-  opacity: 0.3;
+  opacity: 0.9;
   position: absolute;
   top: 0;
   left: 0;
