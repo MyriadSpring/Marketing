@@ -155,7 +155,18 @@ img {
 .offer-link:hover .offer {
     background-color: rgba(255, 255, 255, 0.2);
 }
+section#trial-program {
+    text-align: center;
+}
 
+.trial-details {
+    margin-top: 1rem;
+}
+
+.crossed-out {
+    text-decoration: line-through;
+    margin-right: 8px;
+}
 footer {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 1rem;
