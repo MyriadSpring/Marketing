@@ -167,6 +167,53 @@ section#trial-program {
     text-decoration: line-through;
     margin-right: 8px;
 }
+.special-offer {
+    text-align: center;
+}
+
+.crossed-out-price {
+    text-decoration: line-through;
+    color: #f00;
+    margin-right: 0.5rem;
+}
+
+.discounted-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.bg-image {
+  position: relative;
+}
+
+.bg-image::before {
+  content: "";
+  background-image: url('https://i.ibb.co/ZgHs4Wj/800px-Battle-of-Bach-Dang-1288-770x452.jpg');
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.bg-image-trial {
+  position: relative;
+}
+
+.bg-image-trial::before {
+  content: "";
+  background-image: url('https://i.ibb.co/0MrJJRY/FS-F1919-173-001-scaled.jpg');
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
 footer {
     background-color: rgba(0, 0, 0, 0.9);
     padding: 1rem;
