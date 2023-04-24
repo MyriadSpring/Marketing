@@ -3,9 +3,36 @@
 <head>
     <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
     <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Myriad Spring Media - Real Estate Marketing Services</title>
-<link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myriad Spring Media - Real Estate Marketing Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Add smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Add animation to elements */
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fadeIn {
+            animation-name: fadeIn;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,19 +41,18 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#offers">Offers</a></li>
-         
             </ul>
         </nav>
     </header>
     <main>
-        <section id="home">
+        <section id="home" class="animated fadeIn">
             <h1>Welcome to Myriad Spring Media</h1>
             <p>Unlock the Potential of Your Real Estate Business</p>
             <p>Experience unparalleled growth with proven real estate marketing strategies tailored to your unique needs.</p>
         </section>
-        <section id="about">
+        <section id="about" class="animated fadeIn">
             <h2>About Myriad Spring Media</h2>
-            <p>At Myriad Spring Media, we unite you with exceptionally skilled Vietnamese marketing professionals devoted to delivering excellence. Our primary focus is on the enduring success of our clients, forging lasting relationships and refining results even beyond the completion of payment. Our all-inclusive services are crafted to empower you in achieving your aspirations and distinguishing yourself within the competitive real estate arena.</p>
+            <p>At Myriad Spring Media, we unite you with exceptionally skilled marketing professionals devoted to delivering excellence. Our primary focus is on the enduring success of our clients, forging lasting relationships and refining results even beyond the completion of payment. Our all-inclusive services are crafted to empower you in achieving your aspirations and distinguishing yourself within the competitive real estate arena.</p>
             <h3>Our Services</h3>
             <ul>
                 <li>Done-for-you marketing packages</li>
@@ -37,24 +63,22 @@
                 <li>Appointment booking and live transfer</li>
             </ul>
         </section>
-        <section id="offers">
+        <section id="offers" class="animated fadeIn">
             <h2>Exclusive Offers</h2>
             <div class="offer">
                 <h3>Premium Package - $7,500/month (Value $10,000)</h3>
                 <p>Our premium package offers a comprehensive suite of marketing services tailored for the real estate industry. With this package, we will optimize your social media, SEO, and website, run Facebook ads, build and nurture your leads, retarget potential clients, and book appointments on your behalf.</p>
-            </div>
-            <div class="offer">
-                <h3>Gold Package - $2,500/month (Value $3,500)</h3>
-                <p>Our Gold Package includes running Facebook ads, generating over 50 new leads a month using the latest technology, and providing lead nurturing and follow-up to help you grow your real estate business.</p>
-            </div>
-            <div class="offer">
-                <h3>Social Media Pro Package - $500</h3>
-                <p>Boost your social media following to 1k in a short amount of time and receive support and guidance on content creation and social media growth.</p>
-            </div>
-        </section>
-
-
-    <section id="booking">
+</div>
+<div class="offer">
+<h3>Gold Package - $2,500/month (Value $3,500)</h3>
+<p>Our Gold Package includes running Facebook ads, generating over 50 new leads a month using the latest technology, and providing lead nurturing and follow-up to help you grow your real estate business.</p>
+</div>
+<div class="offer">
+<h3>Social Media Pro Package - $500</h3>
+<p>Boost your social media following to 1k in a short amount of time and receive support and guidance on content creation and social media growth.</p>
+</div>
+</section>
+            <section id="booking" class="animated fadeIn">
         <h2>Book a Consultation</h2>
         <p>Schedule a time with our experts to discuss your marketing needs and start growing your real estate business.</p>
         <div id="calendar">
@@ -69,10 +93,10 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#offers">Offers</a></li>
-            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 </footer>
 <script src="main.js"></script>
-</body>
+    </body>
 </html>
+
