@@ -23,7 +23,36 @@ p {
     line-height: 1.5;
     margin-bottom: 1rem;
 }
+main p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 30px;
+}
 
+main p:last-child {
+  margin-bottom: 0;
+}
+
+main div {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main a {
+  color: #f37021;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+  margin: 0 10px;
+}
+
+main a:hover {
+  color: #333;
+}
 header {
     background-color: #34495e;
     padding: 1rem;
