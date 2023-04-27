@@ -91,7 +91,53 @@ section {
     text-align: center;
     padding: 2rem;
 }
+#about {
+  padding: 50px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
 
+#about h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#about h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#about li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#about li:before {
+  content: "\2022";
+  color: #f37021;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#about li:hover {
+  color: #f37021;
+  cursor: pointer;
+}
 footer {
     background-color: #34495e;
     padding: 1rem;
