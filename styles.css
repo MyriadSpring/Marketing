@@ -156,6 +156,7 @@ section {
 }
 
 #about li {
+    align-items: left;
   font-size: 18px;
   margin-bottom: 10px;
 }
