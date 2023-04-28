@@ -5,20 +5,23 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     line-height: 1.6;
     background-color: #f5f5f5;
     color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     font-weight: bold;
     margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #f5f5f5;
+    border-radius: 4px;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
     margin-bottom: 1rem;
@@ -53,6 +56,7 @@ main a {
 main a:hover {
   color: #333;
 }
+
 header {
     background-color: #34495e;
     padding: 1rem;
@@ -123,105 +127,112 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 2rem;
-}
-#about {
-  padding: 50px;
+ padding: 2rem;
+ }
+ #about {
+ padding: 50px;
+ text-align: center;
+ }
  
-  text-align: center;
-}
-
-#about h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-#about p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 30px;
-}
-
-#about h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-#about ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#about li {
-    align-items: left;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-#about li:before {
-  content: "\2022";
-  color: #f37021;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
-#about li:hover {
-  color: #f37021;
-  cursor: pointer;
-}
-footer {
-    background-color: #34495e;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-}
-footer p {
-    font-size: 1rem;
-    color: #fff;
-}
-
-.btn, .calendly-btn {
-    display: inline-block;
-    padding: 0.5rem 1.5rem;
-    background-color: #3498db;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-}
-
-.btn:hover, .calendly-btn:hover {
-    background-color: #2980b9;
-    color: #ccc;
-}
-
-@media screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-    }
-    section {
-        padding: 1rem;
-    }
-.offer {
-padding: 1rem;
-}
-}
-
-@media screen and (min-width: 769px) and (max-width: 1200px) {
-nav ul {
-flex-wrap: wrap;
-padding: 1rem 0;
-}
-nav ul li {
-flex-grow: 1;
-text-align: center;
-}
-}
+ #about h2 {
+ font-size: 36px;
+ font-weight: bold;
+ margin-bottom: 20px;
+ background-color: #f5f5f5;
+ padding: 0.5rem;
+ border-radius: 4px;
+ }
+ 
+ #about p {
+ font-size: 18px;
+ line-height: 1.5;
+ margin-bottom: 30px;
+ }
+ 
+ #about h3 {
+ font-size: 24px;
+ font-weight: bold;
+ margin-bottom: 20px;
+ background-color: #f5f5f5;
+ padding: 0.5rem;
+ border-radius: 4px;
+ }
+ 
+ #about ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ }
+ 
+ #about li {
+ align-items: left;
+ font-size: 18px;
+ margin-bottom: 10px;
+ }
+ 
+ #about li:before {
+ content: "\2022";
+ color: #f37021;
+ display: inline-block;
+ width: 1em;
+ margin-left: -1em;
+ }
+ 
+ #about li:hover {
+ color: #f37021;
+ cursor: pointer;
+ }
+ 
+ footer {
+ background-color: #34495e;
+ padding: 1rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 2rem;
+ }
+ 
+ footer p {
+ font-size: 1rem;
+ color: #fff;
+ }
+ 
+ .btn, .calendly-btn {
+ display: inline-block;
+ padding: 0.5rem 1.5rem;
+ background-color: #3498db;
+ color: #fff;
+ text-decoration: none;
+ border-radius: 4px;
+ transition: background-color 0.3s, color 0.3s;
+ font-size: 1.2rem;
+ margin-top: 1rem;
+ }
+ 
+ .btn:hover, .calendly-btn:hover {
+ background-color: #2980b9;
+ color: #ccc;
+ }
+ 
+ @media screen and (max-width: 768px) {
+ nav ul {
+ flex-direction: column;
+ }
+ section {
+ padding: 1rem;
+ }
+ .offer {
+ padding: 1rem;
+ }
+ }
+ 
+ @media screen and (min-width: 769px) and (max-width: 1200px) {
+ nav ul {
+ flex-wrap: wrap;
+ padding: 1rem 0;
+ }
+ nav ul li {
+ flex-grow: 1;
+ text-align: center;
+ }
+ }
