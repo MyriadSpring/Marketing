@@ -94,14 +94,18 @@ header {
 
 .header-number {
     float: right;
-   
     font-size: 20px;
     margin-right: 20px;
-    color: #f37021;
+    color: #fff;
+    background: linear-gradient(to right, #0077be, #00bfff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
 
 .header-number:hover {
-   color: #fff;
+   color: #f3bb21;
 }
 
 nav ul {
