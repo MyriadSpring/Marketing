@@ -30,6 +30,7 @@ section {
     position: relative;
     overflow: hidden;
     width: 100%;
+      text-align: center;
 
 
 }
@@ -73,7 +74,7 @@ main a:hover {
 }
 
 #home h1 {
-    font-size: 48px;
+    font-size: 72px;
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
