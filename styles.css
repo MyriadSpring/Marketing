@@ -58,203 +58,115 @@ main a:hover {
 }
 
 header {
-    background-color: #34495e;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
+    background: #1f1f1f;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
+
 .header-number {
-  font-size: 24px;
-  font-weight: bold;
-  color: #f37021;
-  margin-right: 20px;
+    float: left;
+    color: #fff;
+    font-size: 20px;
 }
+
 nav ul {
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    padding: 0.5rem 1rem;
-    background-color: #34495e;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
 }
 
 nav ul li {
-    margin: 0 1rem;
+    margin-left: 20px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
+color: #fff;
+text-decoration: none;
+font-size: 20px;
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    text-decoration: none;
-    color: #ccc;
+color: #ccc;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 0;
+max-width: 1000px;
+margin: 20px auto;
 }
 
-
-
-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    background-color: #ffffff;
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 1200px;
-    margin-bottom: 2rem;
+main h1 {
+font-size: 30px;
+margin-bottom: 20px;
 }
+
+main h2 {
+font-size: 25px;
+margin-bottom: 10px;
+}
+
+main p {
+margin-bottom: 10px;
+}
+
+main ul {
+margin-bottom: 20px;
+}
+
+main li {
+margin-bottom: 5px;
+}
+
+main details {
+margin-bottom: 15px;
+}
+
+main summary {
+font-weight: bold;
+cursor: pointer;
+}
+
 .book-call-btn-wrapper {
-    text-align: center;
-    margin: 20px 0;
+text-align: center;
+margin-top: 20px;
 }
 
 .book-call-btn {
-    background-color: #007bff;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 12px 24px;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: bold;
-    display: inline-block;
-    transition: background-color 0.3s;
+display: inline-block;
+background: #1f1f1f;
+color: #fff;
+text-decoration: none;
+padding: 10px 20px;
+font-size: 18px;
+border-radius: 5px;
 }
 
 .book-call-btn:hover {
-    background-color: #0056b3;
-    color: #ffffff;
+background: #333;
+color: #ccc;
 }
-.offer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
- padding: 2rem;
- }
- #about {
- padding: 50px;
- text-align: center;
- }
- 
- #about h2 {
- font-size: 36px;
- font-weight: bold;
- margin-bottom: 20px;
- background-color: #f5f5f5;
- padding: 0.5rem;
- border-radius: 4px;
- }
- 
- #about p {
- font-size: 18px;
- line-height: 1.5;
- margin-bottom: 30px;
- }
- 
- #about h3 {
- font-size: 24px;
- font-weight: bold;
- margin-bottom: 20px;
- background-color: #f5f5f5;
- padding: 0.5rem;
- border-radius: 4px;
- }
- 
- #about ul {
- list-style: none;
- margin: 0;
- padding: 0;
- }
- 
- #about li {
- align-items: left;
- font-size: 18px;
- margin-bottom: 10px;
- }
- 
- #about li:before {
- content: "\2022";
- color: #f37021;
- display: inline-block;
- width: 1em;
- margin-left: -1em;
- }
- 
- #about li:hover {
- color: #f37021;
- cursor: pointer;
- }
- 
- footer {
- background-color: #34495e;
- padding: 1rem;
- display: flex;
- justify-content: center;
- align-items: center;
- margin-top: 2rem;
- }
- 
- footer p {
- font-size: 1rem;
- color: #fff;
- }
- 
- .btn, .calendly-btn {
- display: inline-block;
- padding: 0.5rem 1.5rem;
- background-color: #3498db;
- color: #fff;
- text-decoration: none;
- border-radius: 4px;
- transition: background-color 0.3s, color 0.3s;
- font-size: 1.2rem;
- margin-top: 1rem;
- }
- 
- .btn:hover, .calendly-btn:hover {
- background-color: #2980b9;
- color: #ccc;
- }
- 
- @media screen and (max-width: 768px) {
- nav ul {
- flex-direction: column;
- }
- section {
- padding: 1rem;
- }
- .offer {
- padding: 1rem;
- }
- }
- 
- @media screen and (min-width: 769px) and (max-width: 1200px) {
- nav ul {
- flex-wrap: wrap;
- padding: 1rem 0;
- }
- nav ul li {
- flex-grow: 1;
- text-align: center;
- }
- }
+
+footer {
+text-align: center;
+margin-top: 30px;
+}
+
+.animated {
+animation-duration: 1s;
+animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+
+.fadeIn {
+animation-name: fadeIn;
+}
