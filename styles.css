@@ -97,10 +97,12 @@ header {
     float: right;
     font-size: 20px;
     margin-right: 20px;
-    color: #226ab2;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    color: #fff;
+   
 }
-
+.header-number:hover {
+    color: #226ab2;
+}
 
 nav ul {
     display: flex;
