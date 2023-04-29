@@ -197,11 +197,46 @@ main summary {
     color: #999;
 
 }
+#discount-programs {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.program {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.program h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1f1f1f;
+}
+
+.program p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 30px;
+}
 
 footer {
     text-align: center;
     margin-top: 30px;
 }
+footer nav ul li a {
+    color: #333;
+}
+footer nav ul li a:hover {
+    color: #222;
+}
+
 .footer-info {
     display: flex;
     justify-content: center;
@@ -213,7 +248,7 @@ footer {
 .youtube-link,
 .phone-number,
 .email-link {
-    color: #ccc;
+    color: #f37021;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
