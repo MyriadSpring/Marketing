@@ -196,7 +196,7 @@ main summary {
   font-size: 24px;
   color: #fff;
   text-transform: uppercase;
-  animation: flip 2s infinite;
+  animation: flip 4s infinite;
   animation-delay: calc(.2s * var(--i));
 }
 
