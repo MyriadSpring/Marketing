@@ -27,6 +27,32 @@ section {
 
 #home {
     background-color: #f9f9f9;
+    position: relative;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#home::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the last value (0.3) to control the opacity of the overlay */
+    z-index: 1;
+}
+
+/* Make sure that the content of the home section appears above the video and overlay */
+#home > * {
+    position: relative;
+    z-index: 2;
 }
 #home p:first-of-type {
     font-size: 1.5rem;
