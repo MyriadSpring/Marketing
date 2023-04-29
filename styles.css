@@ -150,6 +150,11 @@ main summary {
     background: #333;
     color: #ccc;
 }
+.offer h3::after {
+    content: attr(data-value);
+    text-decoration: line-through;
+    margin-left: 5px;
+}
 
 footer {
     text-align: center;
