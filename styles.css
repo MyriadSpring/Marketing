@@ -27,7 +27,10 @@ section {
 #home {
     background-color: #f9f9f9;
 }
-
+#home p:first-of-type {
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 
 p {
