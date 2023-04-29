@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
@@ -60,7 +59,7 @@ main div {
 }
 
 main a {
-    color: #ECB835;
+    color: #226ab2;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -97,7 +96,7 @@ header {
     float: right;
     font-size: 20px;
     margin-right: 20px;
-    color: #ECB835;
+    color: #226ab2;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
 }
 
@@ -126,7 +125,7 @@ nav ul li a:hover {
 }
 .fb-link,
 .linkedin-link {
-     color: #ECB835;
+     color: #226ab2;
     transition: color 0.3s ease-in-out;
 }
 
@@ -145,7 +144,7 @@ main h1 {
     margin-bottom: 20px;
 }
 
-main h2 {
+main h2{
     font-size: 25px;
     margin-bottom: 10px;
 }
@@ -207,7 +206,7 @@ main summary {
 }
 
 .offer h3 {
-    color: #ECB835;
+    color: #226ab2;
     font-size: 1.5rem;
 }
 
@@ -217,7 +216,6 @@ main summary {
     margin-left: 5px;
     font-size: 1.2rem;
     color: #999;
-
 }
 #discount-programs {
     display: flex;
@@ -246,8 +244,8 @@ main summary {
     line-height: 1.5;
     text-align: justify;
     margin-bottom: 30px;
-
 }
+
 footer {
     text-align: center;
     margin-top: 30px;
@@ -265,8 +263,8 @@ footer nav ul li a:hover {
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
-   
 }
+
 .footer-images {
     display: flex;
     justify-content: center;
@@ -275,14 +273,13 @@ footer nav ul li a:hover {
 }
 
 .footer-images img {
- 
     margin: 0 10px;
 }
 
 .youtube-link,
 .phone-number,
 .email-link {
-    color: #ECB835;
+    color: #226ab2;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
@@ -301,7 +298,7 @@ footer nav ul li a:hover {
     .header-number {
         text-align: center;
         margin-bottom: 10px;
-    }
+ }
     nav {
         display: none;
     }
