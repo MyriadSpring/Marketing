@@ -26,35 +26,36 @@ p {
     line-height: 1.5;
     margin-bottom: 1rem;
 }
+
 main p {
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: justify;
-  margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 30px;
 }
 
 main p:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 main div {
-  margin-top: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main a {
-  color: #f37021;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  transition: color 0.3s ease-in-out;
-  margin: 0 10px;
+    color: #f37021;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    margin: 0 10px;
 }
 
 main a:hover {
-  color: #333;
+    color: #333;
 }
 
 header {
@@ -69,6 +70,7 @@ header {
     float: left;
     color: #fff;
     font-size: 20px;
+    margin-right: 20px;
 }
 
 nav ul {
@@ -83,90 +85,73 @@ nav ul li {
 }
 
 nav ul li a {
-color: #fff;
-text-decoration: none;
-font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
 }
 
 nav ul li a:hover {
-color: #ccc;
+    color: #ccc;
 }
 
 main {
-max-width: 1000px;
-margin: 20px auto;
+    max-width: 1000px;
+    margin: 40px auto;
 }
 
 main h1 {
-font-size: 30px;
-margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 main h2 {
-font-size: 25px;
-margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 main p {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 main ul {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 main li {
-margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 main details {
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 main summary {
-font-weight: bold;
-cursor: pointer;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .book-call-btn-wrapper {
-text-align: center;
-margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .book-call-btn {
-display: inline-block;
-background: #1f1f1f;
-color: #fff;
-text-decoration: none;
-padding: 10px 20px;
-font-size: 18px;
-border-radius: 5px;
+    display: inline-block;
+    background: #1f1f1f;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 .book-call-btn:hover {
-background: #333;
-color: #ccc;
+    background: #333;
+    color: #ccc;
 }
 
 footer {
-text-align: center;
-margin-top: 30px;
-}
-
-.animated {
-animation-duration: 1s;
-animation-fill-mode: both;
-}
-
-@keyframes fadeIn {
-0% {
-opacity: 0;
-}
-100% {
-opacity: 1;
-}
-}
-
-.fadeIn {
-animation-name: fadeIn;
+    text-align: center;
+    margin-top: 30px;
 }
