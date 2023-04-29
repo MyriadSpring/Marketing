@@ -108,7 +108,19 @@ header {
 .header-number:hover {
     color: #226ab2;
 }
+#video-bg {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 
+.content {
+  position: relative;
+  z-index: 1;
+}
 nav ul {
     display: flex;
     justify-content: center;
