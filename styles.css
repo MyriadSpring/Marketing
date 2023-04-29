@@ -256,6 +256,10 @@ footer nav ul li a:hover {
     width: 350px;
     margin: 0 10px;
 }
+.facebook-screenshot {
+  width: 400px;
+  height: auto;
+}
 
 .youtube-link,
 .phone-number,
