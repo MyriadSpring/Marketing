@@ -128,7 +128,7 @@ nav ul li a:hover {
 }
 .fb-link,
 .linkedin-link {
-    color: #ccc;
+     color: #f37021;
     transition: color 0.3s ease-in-out;
 }
 
@@ -251,7 +251,7 @@ footer nav ul li a:hover {
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
-    color: #f37021;
+   
 }
 .footer-images {
     display: flex;
