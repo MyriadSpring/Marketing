@@ -4,20 +4,26 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
 body {
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.6;
-    background-color: #f5f5f5;
+    background-color: #f3f3f3;
     color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     padding: 0.5rem;
-    background-color: #f5f5f5;
-    border-radius: 4px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+section {
+    padding: 50px 0;
 }
 #home {
     background-image: url("https://i.ibb.co/Kwykyp4/fix.jpg");
@@ -27,7 +33,25 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     text-align: center;
     width: 100%;
+    position: relative;
 }
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#home h1, #home p {
+    position: relative;
+    z-index: 1;
+}
+
+
 
 p {
     font-family: 'Lexend Deca', sans-serif;
@@ -82,9 +106,10 @@ main a:hover {
 header {
     background: #1f1f1f;
     padding: 15px;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1000;
+    width: 100%;
 }
 
 .header-number {
@@ -171,10 +196,18 @@ main summary {
     background: #333;
     color: #ccc;
 }
+.offer h3 {
+    color: #f37021;
+    font-size: 1.5rem;
+}
+
 .offer h3::after {
     content: attr(data-value);
     text-decoration: line-through;
     margin-left: 5px;
+    font-size: 1.2rem;
+    color: #999;
+
 }
 
 footer {
