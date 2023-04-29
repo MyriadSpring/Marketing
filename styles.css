@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-    padding: 60px 0;
+    padding: 25px 0;
 }
 
 #home {
@@ -144,157 +144,146 @@ padding: 0 20px;
 }
 
 main h1 {
-font-size: 30px;
-margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
-main h2{
-font-size: 25px;
-margin-bottom: 10px;
+main h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 main p {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 main ul {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 main li {
-margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 main details {
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 main summary {
-font-weight: bold;
-cursor: pointer;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .book-call-btn-wrapper {
-text-align: center;
-margin-top: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .book-call-btn {
-display: inline-block;
-background: #1f1f1f;
-color: #fff;
-text-decoration: none;
-padding: 10px 20px;
-font-size: 18px;
-border-radius: 5px;
+    display: inline-block;
+    background: #1f1f1f;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 .book-call-btn:hover {
-background: #333;
-color: #ccc;
-}
-.book-call-btn-wrapper span {
-position: relative;
-display: inline-block;
-font-size: 24px;
-color: #fff;
-text-transform: uppercase;
-animation: flip 4s infinite;
-animation-delay: calc(.2s * var(--i));
-}
-
-@keyframes flip {
-0%, 80% {
-transform: rotateY(360deg)
-}
+    background: #333;
+    color: #ccc;
 }
 
 .offer h3 {
-color: #226ab2;
-font-size: 1.5rem;
+    color: #226ab2;
+    font-size: 1.5rem;
 }
 
 .offer h3::after {
-content: attr(data-value);
-text-decoration: line-through;
-margin-left: 5px;
-font-size: 1.2rem;
-color: #999;
+    content: attr(data-value);
+    text-decoration: line-through;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    color: #999;
 }
+
 #discount-programs {
-display: flex;
-justify-content: space-around;
-align-items: flex-start;
-padding: 50px 0;
-background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 0;
+    background-color: #f9f9f9;
 }
 
 .program {
-width: 45%;
-background-color: #fff;
-padding: 30px;
-border-radius: 10px;
-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .program h3 {
-font-size: 24px;
-margin-bottom: 10px;
-color: #1f1f1f;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #1f1f1f;
 }
 
 .program p {
-font-size: 18px;
-line-height: 1.5;
-text-align: justify;
-margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 30px;
 }
 
 footer {
-text-align: center;
-margin-top: 30px;
-padding: 20px 0;
-background-color: #f9f9f9;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: #f9f9f9;
 }
+
 footer nav ul li a {
-color: #333;
+    color: #333;
 }
+
 footer nav ul li a:hover {
-color: #222;
+    color: #222;
 }
 
 .footer-info {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 10px;
-margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
 .footer-images {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .footer-images img {
-margin: 0 10px;
+    margin: 0 10px;
 }
 
 .youtube-link,
 .phone-number,
 .email-link {
-color: #226ab2;
-text-decoration: none;
-transition: color 0.3s ease-in-out;
+    color: #226ab2;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 
 .youtube-link:hover,
 .phone-number:hover,
 .email-link:hover {
-color: #fff;
+    color: #fff;
 }
+
 @media only screen and (max-width: 767px) {
     /* Add styles specific to mobile screens here */
     body {
@@ -306,13 +295,13 @@ color: #fff;
         align-items: center;
         padding: 10px;
     }
-    
+
     .header-number {
         text-align: center;
         margin-bottom: 10px;
         font-size: 18px;
     }
-    
+
     nav {
         display: none;
     }
@@ -320,7 +309,6 @@ color: #fff;
     main {
         padding: 0 20px;
     }
-
     h1, h2, h3, h4, h5, h6 {
         font-size: 1.5em;
     }
@@ -333,7 +321,7 @@ color: #fff;
         font-size: 24px;
     }
 
-    main h2{
+    main h2 {
         font-size: 20px;
     }
 
@@ -355,3 +343,5 @@ color: #fff;
         align-items: center;
     }
 }
+
+
