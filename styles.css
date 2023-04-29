@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 100px 0;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
 
 p {
@@ -76,10 +77,6 @@ main a:hover {
     font-size: 24px;
     font-weight: bold;
     letter-spacing: 1px;
-}
-#home p:hover, #home h1:hover {
-    color: #fff;
-    background-color: #f37021;
 }
 
 header {
