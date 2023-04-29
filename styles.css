@@ -244,6 +244,17 @@ footer nav ul li a:hover {
     gap: 10px;
     margin-bottom: 20px;
 }
+.footer-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-images img {
+    width: 150px;
+    margin: 0 10px;
+}
 
 .youtube-link,
 .phone-number,
