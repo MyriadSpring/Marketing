@@ -88,6 +88,10 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px; /* Increase the height of the header */
 }
 
 .header-number {
@@ -99,9 +103,10 @@ header {
 
 nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center; /* Center the navigation links */
     align-items: center;
     list-style-type: none;
+    flex-grow: 1; /* Make the navigation links take up the remaining space */
 }
 
 nav ul li {
@@ -117,6 +122,13 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #ccc;
+}
+
+.logo {
+    height: 50px; /* Increase the size of the logo */
+    margin: 0 auto; /* Center the logo horizontally */
+
+
 }
 
 main {
