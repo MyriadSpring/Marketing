@@ -122,7 +122,27 @@ section {
     max-width: 1200px;
     margin-bottom: 2rem;
 }
+.book-call-btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
 
+.book-call-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.book-call-btn:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
 .offer {
     display: flex;
     flex-direction: column;
