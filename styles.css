@@ -60,7 +60,7 @@ main div {
 }
 
 main a {
-    color: #f37021;
+    color: #ECB835;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -97,7 +97,7 @@ header {
     float: right;
     font-size: 20px;
     margin-right: 20px;
-    color: #f37021;
+    color: #ECB835;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
 }
 
@@ -126,7 +126,7 @@ nav ul li a:hover {
 }
 .fb-link,
 .linkedin-link {
-     color: #f37021;
+     color: #ECB835;
     transition: color 0.3s ease-in-out;
 }
 
@@ -207,7 +207,7 @@ main summary {
 }
 
 .offer h3 {
-    color: #f37021;
+    color: #ECB835;
     font-size: 1.5rem;
 }
 
@@ -282,7 +282,7 @@ footer nav ul li a:hover {
 .youtube-link,
 .phone-number,
 .email-link {
-    color: #f37021;
+    color: #ECB835;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
