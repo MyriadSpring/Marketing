@@ -90,10 +90,14 @@ header {
 }
 
 .header-number {
-    float: left;
+    float: right;
     color: #fff;
     font-size: 20px;
     margin-right: 20px;
+}
+
+.header-number:hover {
+  color: #f37021;
 }
 
 nav ul {
