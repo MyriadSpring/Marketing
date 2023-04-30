@@ -242,10 +242,11 @@ main summary {
     font-size: 1.2rem;
     color: #999;
 }
-.offer {
+.offer-container {
     background-image: url("https://i.ibb.co/Jzd1gw1/Paper-Brown-Texture-Background-Natural-Document-1468883.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 20px;
 }
 #discount-programs {
     display: flex;
