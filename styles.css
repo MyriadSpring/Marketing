@@ -37,11 +37,9 @@ section {
 #home p:first-of-type {
     font-size: 1.5rem;
     text-align: center;
+     color: #ffffff;
 }
-.home-content {
-  max-width: 85%;
-  margin: 0 auto; /* Center the content horizontally */
-}
+
 p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.2rem;
@@ -90,6 +88,7 @@ main a:hover {
     font-weight: bold;
     letter-spacing: 1px;
     margin-bottom: 40px;
+     color: #ffffff;
 }
 
 header {
@@ -243,7 +242,11 @@ main summary {
     font-size: 1.2rem;
     color: #999;
 }
-
+.offer {
+    background-image: url("https://i.ibb.co/Jzd1gw1/Paper-Brown-Texture-Background-Natural-Document-1468883.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #discount-programs {
     display: flex;
     justify-content: space-around;
