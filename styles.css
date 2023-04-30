@@ -31,7 +31,7 @@ section {
     overflow: hidden;
     width: 100%;
       text-align: center;
-
+ height: 1000px;
 
 }
 #home p:first-of-type {
@@ -109,12 +109,14 @@ header {
     color: #226ab2;
 }
 #video-bg {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    /* Maintain the aspect ratio of the video */
+    object-fit: cover;
 }
 
 .content {
