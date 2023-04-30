@@ -32,13 +32,16 @@ section {
     width: 100%;
       text-align: center;
  height: 1000px;
-
+ max-width: 100%;
 }
 #home p:first-of-type {
     font-size: 1.5rem;
     text-align: center;
 }
-
+.home-content {
+  max-width: 85%;
+  margin: 0 auto; /* Center the content horizontally */
+}
 p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 1.2rem;
