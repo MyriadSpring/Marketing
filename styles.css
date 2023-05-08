@@ -13,6 +13,9 @@ body {
     color: #ffffff;
 }
 .background {
+    background-image: url('plain.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: fixed;
     top: 0;
     left: 0;
@@ -279,12 +282,7 @@ main summary {
     text-align: justify;
     margin-bottom: 30px;
 }
-.plain-bg {
-    background-image: url('plain.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
 .full-width-img {
     display: block;
     width: 100%;
