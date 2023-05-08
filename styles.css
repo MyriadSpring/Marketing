@@ -255,6 +255,8 @@ footer nav ul li a:hover {
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .footer-images {
@@ -262,7 +264,10 @@ footer nav ul li a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
+
 
 .footer-images img {
     margin: 0 10px;
