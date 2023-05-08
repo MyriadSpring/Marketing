@@ -272,7 +272,12 @@ main summary {
     text-align: justify;
     margin-bottom: 30px;
 }
-
+.plain-bg {
+    background-image: url('plain.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 footer {
     text-align: center;
     margin-top: 30px;
