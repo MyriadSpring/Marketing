@@ -132,10 +132,8 @@ header {
     object-fit: cover;
 }
 
-.content {
-  position: relative;
-  z-index: 1;
-}
+
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -240,48 +238,9 @@ main summary {
   0%, 80% {
     transform: rotateY(360deg) 
   }
-}
-.offer h3 {
-    color: #226ab2;
-    font-size: 1.5rem;
-}
 
-.offer h3::after {
-    content: attr(data-value);
-    text-decoration: line-through;
-    margin-left: 5px;
-    font-size: 1.2rem;
-    color: #999;
-}
 
-#discount-programs {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 50px 0;
-  
-}
 
-.program {
-    width: 45%;
- 
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
-
-.program h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #1f1f1f;
-}
-
-.program p {
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
-    margin-bottom: 30px;
-}
 
 .full-width-img {
     display: block;
