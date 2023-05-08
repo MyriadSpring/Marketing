@@ -10,8 +10,11 @@
 body {
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(135deg, #cfdbed 0%, #ffffff 100%);
-    color: #fff;
+      background-image: url('plain.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
+     text-align: center;
 }
 
 section {
@@ -72,7 +76,7 @@ main a {
 }
 
 main a:hover {
-    color: #333;
+   color: #ffffff;
 }
 
 #home h1 {
@@ -157,7 +161,7 @@ nav ul li a:hover {
 
 .fb-link:hover,
 .linkedin-link:hover {
-    color: #fff;
+    color: #ffffff;
 }
 
 main {
