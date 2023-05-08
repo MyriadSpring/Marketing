@@ -121,7 +121,9 @@ header {
     /* Maintain the aspect ratio of the video */
     object-fit: cover;
 }
-
+video {
+  width: 100%;
+}
 
 
 nav ul {
