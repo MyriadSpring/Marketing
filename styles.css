@@ -10,7 +10,7 @@
 body {
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.6;
-    color: #ffffff;
+    color: #333;
 
 }
 h1, h2, h3, h4, h5, h6 {
@@ -239,6 +239,7 @@ footer {
     margin-top: 30px;
     padding: 20px 0;
     background-color: #f9f9f9;
+       align-items: center;
 }
 
 footer nav ul li a {
