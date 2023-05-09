@@ -232,7 +232,9 @@ main summary {
     transform: rotateY(360deg) 
   }
 
-
+details summary {
+  padding-left: 80px;
+}
 
 footer {
     text-align: center;
