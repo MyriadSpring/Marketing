@@ -231,13 +231,21 @@ main summary {
   0%, 80% {
     transform: rotateY(360deg) 
   }
-
-details summary {
-  padding-left: 80px;
+.header-nav ul li a:hover {
+    color: #226ab2;
 }
 details {
     display: block;
     margin-bottom: 10px;
+}
+
+details summary {
+  padding-left: 80px;
+}
+
+/* Add the following style to fix the FAQ section */
+details[open] summary {
+  padding-left: 0;
 }
 footer {
     text-align: center;
@@ -270,8 +278,8 @@ footer nav ul li a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-  
     max-width: 100%;
+    flex-wrap: wrap; /* Add this to properly align images in the footer on smaller screens */
 }
 
 
