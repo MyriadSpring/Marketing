@@ -235,7 +235,10 @@ main summary {
 details summary {
   padding-left: 80px;
 }
-
+details {
+    display: block;
+    margin-bottom: 10px;
+}
 footer {
     text-align: center;
     margin-top: 30px;
