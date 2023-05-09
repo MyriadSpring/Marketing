@@ -283,11 +283,8 @@ footer nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    max-width: 100%;
-    flex-wrap: wrap; /* Add this to properly align images in the footer on smaller screens */
+    flex-wrap: wrap;
 }
-
 
 
 .footer-images img {
