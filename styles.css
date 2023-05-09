@@ -233,28 +233,7 @@ main summary {
   }
 .header-nav ul li a:hover {
     color: #226ab2;
-}
-details {
-    display: block;
-    margin-bottom: 10px;
-}
 
-details summary {
-    font-weight: bold;
-    cursor: pointer;
-    padding-left: 0; /* Replace 80px with 0 */
-}
-
-/* Add the following style to fix the FAQ section */
-details[open] summary {
-    padding-left: 0;
-}
-    .faq-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-    .faq-container details {
-    display: block;
 }
 footer {
     text-align: center;
