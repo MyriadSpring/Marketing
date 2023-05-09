@@ -253,6 +253,9 @@ details[open] summary {
     max-width: 800px;
     margin: 0 auto;
 }
+    .faq-container details {
+    display: block;
+}
 footer {
     text-align: center;
     margin-top: 30px;
@@ -268,7 +271,13 @@ footer nav ul li a {
 footer nav ul li a:hover {
     color: #222;
 }
-
+.footer-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #100E0D;
+  padding: 20px 0;
+}
 .footer-info {
     display: flex;
     justify-content: center;
@@ -297,7 +306,7 @@ footer nav ul li a:hover {
 }
 
 .myriad-logo {
-    width: 500px; /* Adjust the width as needed */
+    width: 400px; /* Adjust the width as needed */
     height: auto;
 }
 .youtube-link,
