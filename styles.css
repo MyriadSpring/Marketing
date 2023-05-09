@@ -284,13 +284,22 @@ footer nav ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #100E0D;
 }
 
 
 .footer-images img {
     margin: 0 10px;
 }
+.logo-container {
+    display: inline-block;
+    vertical-align: top;
+}
 
+.myriad-logo {
+    width: 500px; /* Adjust the width as needed */
+    height: auto;
+}
 .youtube-link,
 .phone-number,
 .email-link {
