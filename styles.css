@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+  
+  body {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lexend Deca', serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  section {
+    padding: 30px 0 60px;
+  }
+  
+  #home {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    height: 1000px;
+    max-width: 100%;
+    background: url('roomdark.png') no-repeat center center/cover;
+    animation: bgAnimation 15s infinite;
+    font-size: large;
+  }
+  
+  #home p:first-of-type {
+    font-size: 4.5rem;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  main p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  main div {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-weight: bolder;
+  }
+  
+  main a {
+    color: #D4AF37;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    margin: 0 10px;
+  }
+  
+  main a:hover {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  #home h1 {
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    color: #DAA520;
+  }
+  
+  #home p {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: #0D0C0C;
+  }
+  
+  #looping-text {
+    color: white;
+  }
+  
+  header {
+    background: #1f1f1f;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  .header-nav ul li a:hover {
+    color: #c5c4c4;
+} 
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #C0C0C0; /* Add the desired color value here */
+    font-size: large;
+}
+nav a {
+    text-decoration: none;
+  }
+  
+  main {
+    width: 100%;
+    margin: 40px 0;
+    padding: 0;
+  }
+  
+  main h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  main h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  main p {
+    margin-bottom: 10px;
+  }
+  
+  main ul {
+    margin-bottom: 20px;
+  }
+  
+  main li {
+    margin-bottom: 5px;
+  }
+  
+  main details {
+    margin-bottom: 15px;
+  }
+  
+  main summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .summary {
+    font-size: 1.4em;
+  }
+  .no-margin {
+    margin: 0;
+    padding: 0;
+  }
+  .no-top-margin {
+    margin-top: 0;
+  }
+  
+ 
+ 
+  footer {
+    background: linear-gradient(135deg, #1A1A1A, #292929);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer a {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 24px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  footer a:hover {
+    transform: scale(1.2);
+  }
+
+  footer a i.fa-youtube-play {
+    color: #ff0000;
+  }
+
+  footer a i.fa-linkedin {
+    color: #0077b5;
+  }
+
+  footer a i.fa-envelope {
+    color: #da5a4e;
+  }
+
+  footer a i.fa-twitter {
+    color: #1DA1F2;
+  }
